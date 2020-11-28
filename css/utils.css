@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sansita+Swashed&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Grenze Gotisch', cursive;
+    --font2: 'Itim', cursive;
+    --font3: 'PT Sans', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.center{
+    text-align: center;
+}
+
+.article-link {
+    color: darkorange;
+    text-decoration-line: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.article-link:hover{
+    color: rgb(7, 163, 155);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.nav-line {
+    color: darkmagenta;
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.font4 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: large;
+}
+
+.font5{
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-content {
+    max-width: 70vw;
+}
+
+.max-width-2 {
+    max-width: 70vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.btn {}
+
+.form-control {}
